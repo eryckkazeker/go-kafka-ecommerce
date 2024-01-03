@@ -1,0 +1,19 @@
+@base-url=http://localhost:8081
+
+
+GET {{base-url}}/products
+###
+GET {{base-url}}/products/p2
+###
+POST {{base-url}}/orders
+
+[
+  {
+    "id":"p1",
+    "quantity":3
+  },
+  {
+    "id":"p2",
+    "quantity":2
+  }
+]
